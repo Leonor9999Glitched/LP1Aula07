@@ -45,6 +45,8 @@ namespace MyGame
                 Console.WriteLine(enemy.GetHealth());
                 Console.WriteLine(enemy.GetShield());
             }
+
+            Console.WriteLine(Enemy.GetPowerupCount());
         }
     }
 }
